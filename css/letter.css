@@ -1,0 +1,135 @@
+* {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    background-color: rgb(100, 100, 100);
+}
+
+.flex {
+    display: flex;
+}
+
+.f-col-nw {
+    flex-flow: column nowrap;
+}
+
+.f-row-nw {
+    flex-flow: row nowrap;
+}
+
+.f-left-align {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.f-right-align {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.blue, a {
+    color: rgb(14, 84, 132);
+}
+
+a {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: rgb(0, 128, 255);
+}
+
+.letter {
+    width: 21cm;
+    height: 29.7cm;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    background-color: rgb(250, 250, 250);
+}
+
+.letter-content {
+    margin: .8cm 1.2cm .8cm 1.2cm;
+    flex: 1 0;
+}
+
+.infos-band {
+    margin-bottom: .2cm;
+}
+
+.info-line {
+    align-items: center;
+    margin-bottom: .05cm;
+}
+
+.icon-container-l, .icon-container-r {
+    height: .65cm;
+    width: .65cm;
+    background-color: rgb(14, 84, 132);
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.icon-container-l {
+    margin-right: .2cm;
+}
+
+.icon-container-r {
+    margin-left: .2cm;
+}
+
+.info-icon {
+    height: 60%;
+    width: 60%;
+    filter: invert(100%) grayscale(100%);
+}
+
+.text-separator {
+    margin: 0 .15cm;
+}
+
+.letter-object {
+    font-weight: bold;
+    margin: 0 0 .2cm 0;
+}
+
+.letter-body {
+    margin: .5cm 0 .5cm 0;
+    flex: 1 0;
+}
+
+.letter-p {
+    text-indent: 1cm;
+    margin-bottom: 0.4cm;
+    text-align: justify;
+}
+
+.letter-greet {
+    text-indent: 0;
+}
+
+.letter-end {
+    margin: 0;
+}
+
+.signature-name {
+    margin-bottom: .2cm;
+    text-align: center;
+}
+
+.signature {
+    width: 4.5cm;
+}
